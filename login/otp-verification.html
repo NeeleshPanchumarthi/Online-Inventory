@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System - OTP Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="back-arrow" onclick="history.back()">←</a>
+            <img src="/placeholder.svg?height=100&width=200" alt="Company Logo" class="logo">
+        </header>
+        <main>
+            <form id="otp-form" class="form" action="welcome.html">
+                <h2>OTP Verification</h2>
+                <p>Please enter the verification code sent to your email.</p>
+                <div class="form-group">
+                    <label for="otp">Verification Code:</label>
+                    <input type="text" id="otp" name="otp" required>
+                </div>
+                <button type="submit" class="button">Verify</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

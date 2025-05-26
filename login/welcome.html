@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Company Logo" class="logo">
+        </header>
+        <main>
+            <div id="welcome-message">
+                <h2>Welcome, <span id="user-name" >User</span>!</h2>
+                <a href="#" class="button">
+                    Proceed to Dashboard
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </main>
+    </div>
+    <script>
+        // This is a placeholder. In a real application, you'd get the user's name from the server or local storage.
+        document.getElementById('user-name').textContent = 'John Doe';
+    </script>
+</body>
+</html>
